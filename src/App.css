@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+
+#starbuttons {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  background-color: #4b4e54;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.fs-4 {
+  color:aliceblue;
+}
+
+.trailer {
+  flex-grow: 1;
+}
+
+hr {
+  color: black;
+}
+
+#director {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+#novel {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+#reviewText {
+  color: aliceblue;
+  padding-top: 1%;
+}
+
+.container {
+  display: flex;
+}
+
+.newreview {
+  margin-top: 5%;
+  border: 2px solid black;
+  padding-top: 1%;
+  width: 30%;
+  background-color: aliceblue;
+  overflow: hidden;
+  overflow-wrap: break-word;
+}
